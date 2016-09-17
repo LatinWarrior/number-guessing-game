@@ -1,0 +1,38 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Testing with Karma, Jasmine and Protractror",
+  "main": "app/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server –-port 3589",
+    "start": "npm run lite"
+  },
+  "keywords": [
+    "AngularJS",
+    "Karma",
+    "Jasmine",
+    "Protractor"
+  ],
+  "author": "Luis Blanco",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "jasmine": "^2.5.1",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "lite-server": "^2.2.2",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.1",
+    "systemjs": "^0.19.38"
+  }
+}
